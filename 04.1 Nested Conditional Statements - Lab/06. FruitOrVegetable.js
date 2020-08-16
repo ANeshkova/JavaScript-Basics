@@ -1,0 +1,15 @@
+function fruitOrVegetable(food) {
+
+    if (food == "banana" || food == "apple" || food == "kiwi" || 
+    food == "cherry" || food == "lemon" || food == "grapes") {
+
+        console.log("fruit");
+    } else if (food == "tomato" || food == "cucumber" || food == "pepper" || food == "carrot") {
+        console.log("vegetable");
+
+    } else {
+        console.log("unknown");
+    }
+} 
+
+fruitOrVegetable("banana");
